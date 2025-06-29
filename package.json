@@ -6,8 +6,8 @@
     "start": "vercel dev"
   },
   "dependencies": {
-    "discord.js": "^14.0.0",        // or latest stable
-    "node-fetch": "^3.0.0"          // if you need fetch, but discord.js includes most features
+    "discord.js": "^14.0.0",       
+    "node-fetch": "^3.0.0"         
   },
   "type": "module"
 }
