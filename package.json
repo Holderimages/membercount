@@ -1,1 +1,13 @@
-
+{
+  "name": "discord-membercount",
+  "version": "1.0.0",
+  "main": "api/membercount.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",        // or latest stable
+    "node-fetch": "^3.0.0"          // if you need fetch, but discord.js includes most features
+  },
+  "type": "module"
+}
